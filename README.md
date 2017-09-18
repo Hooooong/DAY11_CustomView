@@ -143,8 +143,6 @@ ____________________________________________________
 
   - CustomView
 
-      ![CustomView](https://github.com/Hooooong/DAY11_CustomView/blob/master/image/CustomView.png)
-
       - CustomView 생성 방법
 
           1. Custom 할 View를 상속받은 후 onDraw 재정의
