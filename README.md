@@ -10,7 +10,7 @@ ____________________________________________________
 
   - CustomWidget
 
-      ![CustomWidget]()
+      ![CustomWidget](https://github.com/Hooooong/DAY11_CustomView/blob/master/image/CustomWidget.png)
 
       - CustomWidget 생성 방법
 
@@ -143,7 +143,7 @@ ____________________________________________________
 
   - CustomView
 
-      ![CustomView]()
+      ![CustomView](https://github.com/Hooooong/DAY11_CustomView/blob/master/image/CustomView.png)
 
       - CustomView 생성 방법
 
