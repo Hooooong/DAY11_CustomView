@@ -10,8 +10,6 @@ ____________________________________________________
 
   - CustomWidget
 
-      ![CustomWidget](https://github.com/Hooooong/DAY11_CustomView/blob/master/image/CustomWidget.png)
-
       - CustomWidget 생성 방법
 
           1. Custom 속성을 attrs.xml( attrs : attributes 의 약자 ) 파일에 정의
