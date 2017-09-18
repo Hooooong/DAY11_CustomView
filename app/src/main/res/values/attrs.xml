@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 재정의할 객체 이름 -->
+    <declare-styleable name="AniButton">
+        <!-- format 은 String, Resource 2가지만 된다.-->
+        <attr name="animation" format="string"/>
+        <attr name="animation_name" format="string"/>
+    </declare-styleable>
+</resources>
