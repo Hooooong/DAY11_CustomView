@@ -16,7 +16,7 @@ ____________________________________________________
 
           1. Custom 속성을 attrs.xml( attrs : attributes 의 약자 ) 파일에 정의
           2. Custom 할 객체(Widget)를 상속받은 후 재정의
-          3. Custom 할 객체(Widget)를 Layout.xml 에 Tag 로 사용
+          3. Custom 할 객체(Widget)를 Layout.xml 에 Tag로 사용
           4. CustomWidget 에서 동작 처리 및 activity 에서 동작 처리
 
               ```Java
