@@ -217,19 +217,19 @@ ____________________________________________________
 
               - MainActivity.java
 
-                  ```java
-                  // 1. CustomView Class 를 생성한다.
-                  CustomView customView;  
-                  // 2. findViewById로 MainActivity와 xml 을 연결해준다.
-                  customView = (CustomView)findViewById(R.id.customView);
+              ```java
+              // 1. CustomView Class 를 생성한다.
+              CustomView customView;  
+              // 2. findViewById로 MainActivity와 xml 을 연결해준다.
+              customView = (CustomView)findViewById(R.id.customView);
 
-                  // ... 동일하게 사용
+              // ... 동일하게 사용
 
-                  // OR
-                  // xml 로 생성하지 않고 직접 생성하여 사용
-                  CustomView cv = new CustomView(this);
-                  cv.setX(300);
-                  cv.setY(300);
-                  stage.addView(cv);                  
+              // OR
+              // xml 로 생성하지 않고 직접 생성하여 사용
+              CustomView cv = new CustomView(this);
+              cv.setX(300);
+              cv.setY(300);
+              stage.addView(cv);                  
 
-                  ```
+              ```
