@@ -43,8 +43,8 @@ ____________________________________________________
 
               - attrs.xml
 
-              > <declare-styleable name = "재정의할 객체 명"> <br>
-              > <attr name ="속성 명" format="포멧 명">
+              > `<declare-styleable name = "재정의할 객체 명">` <br>
+              > `<attr name ="속성 명" format="포멧 명">`
 
               ```xml
               <?xml version="1.0" encoding="utf-8"?>
@@ -60,8 +60,8 @@ ____________________________________________________
 
               - activity_main.xml
 
-              > <패키지명.'재정의할 객채명'> 을 통해 정의 <br>
-              > 'nameSpace'.'attr에 정의한 속성명' = '포맷 타입'
+              > `<패키지명.'재정의할 객채명'>` 을 통해 정의 <br>
+              > `'nameSpace'.'attr에 정의한 속성명'` = '포맷 타입'
 
               ```xml
               <!-- xmlns:custom="http://schemas.android.com/apk/res-auto" : nameSpace 를 자동으로 지원(custom) -->
