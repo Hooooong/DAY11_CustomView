@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CustomViewActivity" />
-        <activity android:name=".CustomWidgetActivity"/>
+        <activity android:name=".CustomWidgetActivity" />
+        <activity android:name=".CustomFABActivity"></activity>
     </application>
+
 </manifest>

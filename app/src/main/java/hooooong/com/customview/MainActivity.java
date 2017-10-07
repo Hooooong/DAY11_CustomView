@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     Button customWidgetActivity;
     Button customViewActivity;
+    Button customFABActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +24,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initView(){
         customWidgetActivity = (Button)findViewById(R.id.customWidgetActivity);
         customViewActivity = (Button)findViewById(R.id.customViewActivity);
+        customFABActivity = (Button)findViewById(R.id.customFABActivity);
     }
 
     public void initListener(){
         customWidgetActivity.setOnClickListener(this);
         customViewActivity.setOnClickListener(this);
+        customFABActivity.setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +46,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     goActivity = new Intent(getBaseContext(), CustomViewActivity.class);
                     startActivity(goActivity);
                     break;
+                case R.id.customFABActivity:
+                    goActivity = new Intent(getBaseContext(), CustomFABActivity.class);
+                    startActivity(goActivity);
+                    break;
+
             }
         }
 
