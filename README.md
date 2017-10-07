@@ -134,19 +134,19 @@ ____________________________________________________
 
       - MainActivity.java
 
-          ```java
-          // 1. CustomWidget Class 를 생성한다.
-          AniButton aniButton;  
-          // 2. findViewById로 MainActivity와 xml 을 연결해준다.
-          aniButton = (AniButton)findViewById(R.id.aniButton);
+      ```java
+      // 1. CustomWidget Class 를 생성한다.
+      AniButton aniButton;  
+      // 2. findViewById로 MainActivity와 xml 을 연결해준다.
+      aniButton = (AniButton)findViewById(R.id.aniButton);
 
-          aniButton.setOnClickListener(new View.OnClickListener(){
-              @Override
-              public void onClick(View v) {
-                  //... 다른 Widget 과 동일하게 사용
-              }
-          });   
-          ```
+      aniButton.setOnClickListener(new View.OnClickListener(){
+          @Override
+          public void onClick(View v) {
+              //... 다른 Widget 과 동일하게 사용
+          }
+      });   
+      ```
 
 - CustomView 생성 방법
 
@@ -157,8 +157,6 @@ ____________________________________________________
 - CustomView 코드
 
     - xml 코드
-
-        - activity_main.xml
 
         ```xml
         <hooooong.com.customview.CustomView
