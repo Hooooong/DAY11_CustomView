@@ -10,7 +10,7 @@ import android.view.animation.LinearInterpolator;
 
 /**
  * Created by Android Hong on 2017-10-07.
- * 
+ *
  * https://www.sitepoint.com/animating-android-floating-action-button/
  *
  */
