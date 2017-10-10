@@ -232,5 +232,6 @@ ____________________________________________________
         CustomView cv = new CustomView(this);
         cv.setX(300);
         cv.setY(300);
+        // addView 를 하게 되면 CustomView 에서 onDraw() 메소드가 호출이 된다.
         stage.addView(cv);                  
         ```

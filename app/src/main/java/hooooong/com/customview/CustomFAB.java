@@ -10,9 +10,8 @@ import android.view.animation.LinearInterpolator;
 
 /**
  * Created by Android Hong on 2017-10-07.
- *
+ * <p>
  * https://www.sitepoint.com/animating-android-floating-action-button/
- *
  */
 public class CustomFAB extends FloatingActionButton.Behavior {
 
